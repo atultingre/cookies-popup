@@ -47,7 +47,6 @@ const Popup = () => {
           <h2>Cookie Preference</h2>
           <div>
             <input
-              //   style={{ display: "none" }}
               type="checkbox"
               id="analytics"
               checked={cookiesPreference.analytics}
@@ -62,7 +61,6 @@ const Popup = () => {
           </div>
           <div>
             <input
-              //   style={{ display: "none" }}
               type="checkbox"
               id="marketing"
               checked={cookiesPreference.marketing}
@@ -84,7 +82,6 @@ const Popup = () => {
       )}
       <div>
         <h1>App Component</h1>
-        <h1>Analytic</h1>
       </div>
     </div>
   );
